@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34DC286BFA19B747BED48F30 /* libPods-ImagePlaceholderTextFieldTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCFFA93BE517AE05B979A2C4 /* libPods-ImagePlaceholderTextFieldTests.a */; };
 		84667AD621FA6B99008BC372 /* ImagePlaceholderTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84667ACC21FA6B99008BC372 /* ImagePlaceholderTextField.framework */; };
 		84667ADB21FA6B99008BC372 /* ImagePlaceholderTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84667ADA21FA6B99008BC372 /* ImagePlaceholderTextFieldTests.swift */; };
 		84667ADD21FA6B99008BC372 /* ImagePlaceholderTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 84667ACF21FA6B99008BC372 /* ImagePlaceholderTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84667AE721FA6C94008BC372 /* ImagePlaceholderTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84667AE621FA6C94008BC372 /* ImagePlaceholderTextField.xib */; };
+		84667AE921FA6CA7008BC372 /* ImagePlaceholderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84667AE821FA6CA7008BC372 /* ImagePlaceholderTextField.swift */; };
+		84667AEB21FA71D7008BC372 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84667AEA21FA71D7008BC372 /* UIView+Extensions.swift */; };
+		D738BAAE84E7C71CBF0DF18F /* libPods-ImagePlaceholderTextField.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35DA54191B96570B8F3229EE /* libPods-ImagePlaceholderTextField.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +28,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		35DA54191B96570B8F3229EE /* libPods-ImagePlaceholderTextField.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ImagePlaceholderTextField.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FA474A08C2EE4822BCC3750 /* Pods-ImagePlaceholderTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImagePlaceholderTextField.debug.xcconfig"; path = "Target Support Files/Pods-ImagePlaceholderTextField/Pods-ImagePlaceholderTextField.debug.xcconfig"; sourceTree = "<group>"; };
 		84667ACC21FA6B99008BC372 /* ImagePlaceholderTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ImagePlaceholderTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84667ACF21FA6B99008BC372 /* ImagePlaceholderTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImagePlaceholderTextField.h; sourceTree = "<group>"; };
 		84667AD021FA6B99008BC372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84667AD521FA6B99008BC372 /* ImagePlaceholderTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImagePlaceholderTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84667ADA21FA6B99008BC372 /* ImagePlaceholderTextFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePlaceholderTextFieldTests.swift; sourceTree = "<group>"; };
 		84667ADC21FA6B99008BC372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84667AE621FA6C94008BC372 /* ImagePlaceholderTextField.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImagePlaceholderTextField.xib; sourceTree = "<group>"; };
+		84667AE821FA6CA7008BC372 /* ImagePlaceholderTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePlaceholderTextField.swift; sourceTree = "<group>"; };
+		84667AEA21FA71D7008BC372 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		93C3979A9B1F619E89911DE1 /* Pods-ImagePlaceholderTextFieldTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImagePlaceholderTextFieldTests.release.xcconfig"; path = "Target Support Files/Pods-ImagePlaceholderTextFieldTests/Pods-ImagePlaceholderTextFieldTests.release.xcconfig"; sourceTree = "<group>"; };
+		97A9A581F15B013713560711 /* Pods-ImagePlaceholderTextFieldTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImagePlaceholderTextFieldTests.debug.xcconfig"; path = "Target Support Files/Pods-ImagePlaceholderTextFieldTests/Pods-ImagePlaceholderTextFieldTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B962AE5F97BF3ACDB07E9923 /* Pods-ImagePlaceholderTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImagePlaceholderTextField.release.xcconfig"; path = "Target Support Files/Pods-ImagePlaceholderTextField/Pods-ImagePlaceholderTextField.release.xcconfig"; sourceTree = "<group>"; };
+		CCFFA93BE517AE05B979A2C4 /* libPods-ImagePlaceholderTextFieldTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ImagePlaceholderTextFieldTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D738BAAE84E7C71CBF0DF18F /* libPods-ImagePlaceholderTextField.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +59,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84667AD621FA6B99008BC372 /* ImagePlaceholderTextField.framework in Frameworks */,
+				34DC286BFA19B747BED48F30 /* libPods-ImagePlaceholderTextFieldTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +72,8 @@
 				84667ACE21FA6B99008BC372 /* ImagePlaceholderTextField */,
 				84667AD921FA6B99008BC372 /* ImagePlaceholderTextFieldTests */,
 				84667ACD21FA6B99008BC372 /* Products */,
+				883196C645BB54B25332115A /* Pods */,
+				A3DC39C4B9C1C96ADACBB02D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,8 +89,11 @@
 		84667ACE21FA6B99008BC372 /* ImagePlaceholderTextField */ = {
 			isa = PBXGroup;
 			children = (
+				84667AEA21FA71D7008BC372 /* UIView+Extensions.swift */,
 				84667ACF21FA6B99008BC372 /* ImagePlaceholderTextField.h */,
 				84667AD021FA6B99008BC372 /* Info.plist */,
+				84667AE621FA6C94008BC372 /* ImagePlaceholderTextField.xib */,
+				84667AE821FA6CA7008BC372 /* ImagePlaceholderTextField.swift */,
 			);
 			path = ImagePlaceholderTextField;
 			sourceTree = "<group>";
@@ -84,6 +105,26 @@
 				84667ADC21FA6B99008BC372 /* Info.plist */,
 			);
 			path = ImagePlaceholderTextFieldTests;
+			sourceTree = "<group>";
+		};
+		883196C645BB54B25332115A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5FA474A08C2EE4822BCC3750 /* Pods-ImagePlaceholderTextField.debug.xcconfig */,
+				B962AE5F97BF3ACDB07E9923 /* Pods-ImagePlaceholderTextField.release.xcconfig */,
+				97A9A581F15B013713560711 /* Pods-ImagePlaceholderTextFieldTests.debug.xcconfig */,
+				93C3979A9B1F619E89911DE1 /* Pods-ImagePlaceholderTextFieldTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A3DC39C4B9C1C96ADACBB02D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35DA54191B96570B8F3229EE /* libPods-ImagePlaceholderTextField.a */,
+				CCFFA93BE517AE05B979A2C4 /* libPods-ImagePlaceholderTextFieldTests.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,10 +145,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84667AE021FA6B99008BC372 /* Build configuration list for PBXNativeTarget "ImagePlaceholderTextField" */;
 			buildPhases = (
+				EF88727CD84DD0AAFD0314DE /* [CP] Check Pods Manifest.lock */,
 				84667AC721FA6B99008BC372 /* Headers */,
 				84667AC821FA6B99008BC372 /* Sources */,
 				84667AC921FA6B99008BC372 /* Frameworks */,
 				84667ACA21FA6B99008BC372 /* Resources */,
+				66ED936247E160D81F963D5C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,6 +165,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84667AE321FA6B99008BC372 /* Build configuration list for PBXNativeTarget "ImagePlaceholderTextFieldTests" */;
 			buildPhases = (
+				B7B374F78AB9D7A47DC36DDE /* [CP] Check Pods Manifest.lock */,
 				84667AD121FA6B99008BC372 /* Sources */,
 				84667AD221FA6B99008BC372 /* Frameworks */,
 				84667AD321FA6B99008BC372 /* Resources */,
@@ -148,6 +192,7 @@
 				TargetAttributes = {
 					84667ACB21FA6B99008BC372 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					84667AD421FA6B99008BC372 = {
 						CreatedOnToolsVersion = 10.1;
@@ -177,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84667AE721FA6C94008BC372 /* ImagePlaceholderTextField.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,11 +235,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		66ED936247E160D81F963D5C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ImagePlaceholderTextField/Pods-ImagePlaceholderTextField-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FontAwesome.swift/FontAwesome.swift.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.swift.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ImagePlaceholderTextField/Pods-ImagePlaceholderTextField-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7B374F78AB9D7A47DC36DDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ImagePlaceholderTextFieldTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF88727CD84DD0AAFD0314DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ImagePlaceholderTextField-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84667AC821FA6B99008BC372 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84667AEB21FA71D7008BC372 /* UIView+Extensions.swift in Sources */,
+				84667AE921FA6CA7008BC372 /* ImagePlaceholderTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +457,9 @@
 		};
 		84667AE121FA6B99008BC372 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FA474A08C2EE4822BCC3750 /* Pods-ImagePlaceholderTextField.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -358,6 +477,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.perlguy.ImagePlaceholderTextField;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,7 +485,9 @@
 		};
 		84667AE221FA6B99008BC372 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B962AE5F97BF3ACDB07E9923 /* Pods-ImagePlaceholderTextField.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -390,7 +512,9 @@
 		};
 		84667AE421FA6B99008BC372 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97A9A581F15B013713560711 /* Pods-ImagePlaceholderTextFieldTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 833AT2F722;
 				INFOPLIST_FILE = ImagePlaceholderTextFieldTests/Info.plist;
@@ -408,7 +532,9 @@
 		};
 		84667AE521FA6B99008BC372 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93C3979A9B1F619E89911DE1 /* Pods-ImagePlaceholderTextFieldTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 833AT2F722;
 				INFOPLIST_FILE = ImagePlaceholderTextFieldTests/Info.plist;
